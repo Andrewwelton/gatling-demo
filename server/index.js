@@ -72,6 +72,13 @@ app.get("/book/:bookId/detail", (req, res) => {
         }
       })
     }, Math.floor(Math.random() * 5000) + 1000);
+  } else {
+    res.send({
+      "details": {
+        "id": bookId,
+        "detail": "This is a book synopsis!"
+      }
+    })
   }
 });
 

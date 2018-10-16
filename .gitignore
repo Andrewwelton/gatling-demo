@@ -1,1 +1,4 @@
 server/node_modules/*
+gatling/target/*
+gatling/project/target/*
+gatling/project/project/target/*
